@@ -1,0 +1,82 @@
+@charset "utf-8";
+body{
+	font-size:30px;
+	line-height: 1.5;
+	font-family: "Arial", "Tahoma", "sans-serif" !important;
+}
+.title h2{
+	position: absolute;
+	top: 45%;
+}
+h2{
+	font-size: 55px;
+}
+h3{
+	color: #777;
+	font-weight: bold;
+}
+#Cover {
+	text-shadow: 5px 5px 10px #000;
+}
+
+#Cover h2 {
+	margin:30px 0 0;
+	color:#FFF;
+	text-align:center;
+	font-size:70px;
+	}
+#Cover div p {
+	margin-top:40px;
+	text-align:center;
+	color:#FFF;
+	font-style:italic;
+	font-size:20px;
+}
+#Cover p a {
+	color:#FFF;
+}
+
+.slide {
+	background:url("../images/cover.jpg") 100% no-repeat;
+		background-size: cover;
+	box-shadow:10px 0px 25px 30px rgba(0, 0, 0, 0.06) inset;
+  border:1px solid #000;
+}
+img.logo{
+	position: absolute;
+	margin:100px 80px;
+}
+img.srm{
+	position: absolute;
+	margin: -70px 400px;
+	box-shadow: 5px 10px 20px #333;
+}
+img.ER{
+	
+	box-shadow: 5px 10px 20px #333;
+}
+img.seiseki{
+	box-shadow: 5px 10px 20px #333;
+	position: absolute;
+	
+}
+img.seisekihyou{
+	box-shadow: 5px 10px 20px #333;
+	position: absolute;
+	margin:100px 0px 0px 350px;
+}
+img.gakki{
+	box-shadow: 5px 10px 20px #333;
+}
+img.register{
+	box-shadow: 5px 10px 20px #333;
+	position: absolute;
+}
+img.login{
+	box-shadow: 5px 10px 20px #333;
+	position: absolute;
+	margin:100px 0px 0px 350px;
+}
+.textsize {
+	font-size:22px;
+}

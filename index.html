@@ -1,0 +1,350 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<title>PC-UNIXサーバ構築入門コース</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen.css">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/style.css"  charset="utf-8">
+
+</head>
+<body class="list">
+	<header class="caption">
+		<h1>PC-UNIXサーバ構築入門コース</h1>
+	</header>
+
+	<section class="slide cover" id="Cover">
+		<div>
+			<p>谷澤研究室</p>
+			<h2>PC-UNIXサーバ構築入門コース</h2>
+			<p>井口　植村　斉藤　西川</p>
+			<img src="pictures/cover.jpg" alt="">
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>概要</h2>
+			<ol>
+				<li>Webアプリケーション開発</li>
+				<li>サーバー構築</li>
+				<li>デモンストレーション</li>
+				<li>技術の説明</li>
+				<li>今後の展望</li>
+			</ol>
+		</div>
+	</section>
+
+	<section class="slide title">
+		<div>
+			<h2>Webアプリケーションの開発</h2>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>Webアプリケーションの開発</h2>
+			<h3>「<span style="color:red;"}>S</span>chool<span style="color:red;"}>R</span>ecord<span style="color:red;"}>M</span>anager」</h3>
+			<img src="pictures/logo.png" alt="" class="logo">
+
+			<img class="next srm" src="pictures/SRM.png" height="400" width="auto" alt="">
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>Webアプリケーションの開発</h2>
+			<h3>どんなアプリケーション？</h3>
+			<ul>
+				<li>学生個人の成績をグラフ化</li>
+				<li>登録されたデータを元に成績を解析</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="slide title">
+		<div>
+			<h2>機能説明</h2>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>機能説明</h2>
+			<h3>各教科のテスト点を学期ごとに管理</h3>
+			<img src="pictures/gakki.png" alt="" class="next gakki" width="800px">
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>機能説明</h2>
+			<h3>成績をグラフ・表で見ることが可能</h3>
+			<img src="pictures/seiseki.png" alt="" class="next seiseki" width="450px">
+			<img src="pictures/seisekihyou.png" alt="" class="next seisekihyou" width="450px">
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>機能説明</h2>
+			<h3>簡単にユーザー登録・ログインが可能</h3>
+			<img src="pictures/register.png" alt="" class="next register" width="450px">
+			<img src="pictures/login.png" alt="" class="next login" width="450px">
+		</div>
+	</section>
+
+	<section class="slide title">
+		<div>
+			<h2>サーバー構築</h2>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>サーバー構築</h2>
+			<h3>パソコンのスペック</h3>
+			<table>
+				<tr>
+					<td>OS</td>
+					<td>CentOS6.6</td>
+				</tr>
+				<tr>
+					<td>CPU</td>
+					<td>Intel(R) Pentium 3.00Ghz</td>
+				</tr>
+				<tr>
+					<td>メモリ</td>
+					<td>2GB</td>
+				</tr>
+				<tr>
+					<td>HDD</td>
+					<td>50GB</td>
+				</th>
+			</table>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<div>
+			<h2>サーバー構築</h2>
+			<h3>サーバーに導入したシステム</h3>
+			<ul>
+				<li>Ruby</li>
+				<li>Ruby on Rails</li>
+				<li>Git</li>
+				<li>Nginx</li>
+				<li>sqlite3</li>
+			</ul>
+		</div>
+	</section>
+	<section class="slide title">
+		<div>
+			<h2>デモンストレーション</h2>
+		</div>
+	</section>
+
+	<section class="slide title">
+		<div>
+			<h2>技術の説明</h2>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>使用技術</h2>
+			<table>
+				<tr>
+					<td>サーバー</td>
+					<td></td>
+					<td>アプリケーション</td>
+				</tr>
+				<tr>
+					<td>Nginx</td>
+					<td></td>
+					<td>Ruby(Rbenv)</td>
+				</tr>
+				<tr>
+					<td>unicorn</td>
+					<td></td>
+					<td>Git</td>
+				</tr>
+				<tr>
+					<td>sqlite3</td>
+					<td></td>
+					<td>Ruby on Rails</td>
+				</tr>
+				<tr>
+					<td>heroku(PaaS)</td>
+					<td></td>
+					<td>Bootstrap-sass</td>
+				</tr>
+			</table>
+		</div>
+	</section>
+
+	<section class="slide textsize">
+		<div>
+			<h2>やったこと</h2>
+			<p>CentOS6.6のインストール</p>
+			<p>サーバーソフトNginxのインストール</p>
+			<p>最新版Gitのインストール</p>
+			<p>Rbenvのインストール</p>
+			<p>RubyGemsの導入</p>
+			<p>Ruby on Railsのインストール</p>
+			<p>サービス設計</p>
+			<p>リレーション・データベースの設計</p>
+			<p>Ruby on RailsでWebアプリのサーバー開発</p>
+			<p>herokuと呼ばれるPaaS（Platform as a Service）にデプロイ</p>
+			<p>アプリケーションサーバであるunicornの導入</p>
+			<p>アプリデザイン</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>サーバー構築技術について</h2>
+			<h3>Nginxとは</h3>
+			<p>1日に数億リクエストを処理するような大規模サイトを中心に、近年急速にシェアを拡大しているWebサーバー。</p>
+			<p>「高速・軽量・高機能」</p>
+			<p>mrubyでインフラストラクチャを管理できたり、ロードバランサとして駆動させることができる</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>サーバー構築技術について</h2>
+			<ul>
+				<li>ロードバランサとしてNginx</li>
+				<li>アプリケーション・サーバーにはunicorn</li>
+			</ul>
+			<p>【ここがポイント】</p>
+			<p>サーバーのスペックが低いため、ソフトウェアのパフォーマンスを最大限に上げようと考えNginxを選択した。</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>サーバー構築技術について</h2>
+			<p>HerokuとよばれるPaaS(Platform as a Service)にもデプロイしているので、学外からはそちらのサーバーにアクセスできる。</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>アプリケーション開発技術について</h2>
+			<p>Rubyが得意なメンバーがいたのでWEBアプリケーションフレームワークにRuby on Railsを採用した。</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>WEBアプリケーションフレームワーク</h2>
+			<p>WEBサイトを効率よく、かつ安全で安定したシステムとして開発するためのライブラリ、あるいはツールのこと。</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>Ruby on Rails</h2>
+			<p>Rubyを使ったサーバー開発ができるWEBアプリケーションフレームワーク</p>
+			<br>
+
+			<p>高機能で大規模WEBアプリケーションやネイティブアプリのサーバーサイドの開発に適している。</p>
+			<p>（あのTwitterやcookpadもRuby on Railsで開発された！）</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>アプリケーション開発</h2>
+			<h3>【ココがポイント】</h3>
+			<p>データベース構造は第3正規形に基づいて構成し、登録されたデータを元によりたくさんの機能を実装しやすいような設計にした。</p>
+			<h3>(データを転用する例)</h3>
+			<p>授業変更にも対応する時間割を管理するシステム通知表のように先生と生徒の間で成績管理ができるアプリ</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>アプリケーション開発</h2>
+			<img class="ER" src="pictures/ER図.png" alt="" width="800px">
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>アプリケーション開発</h2>
+			<h3>【ココがポイント】</h3>
+			<p>現在のマルチデバイスな世の中に追従したレスポンシブデザイン</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>デザインについて</h2>
+			<ul>
+				<li>Bootstrap-sassを用いてレスポンシブデザインに対応</li>
+				<li>フラットデザインでサイト全体を見やすくシンプルに</li>
+				<li>カラーユニバーサルデザインを意識した青と白を基調としたデザイン</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>Bootstrap-sass</h2>
+			<p>Rubyで記述されたcssを生成するための言語(メタ言語)である</p>
+			<br>
+			<p>「sass」を用いてBootstrapと呼ばれるcssフレームワークをカスタマイズできるライブラリ</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>開発に関わる所感</h2>
+			<ul>
+				<li>WEBの主流な技術を緩く追いかけつつ、拡張性の高いものにしたかった</li>
+				<li>サーバーのスペックと通信環境が悪かったので導入に時間がかかった。</li>
+				<li>kosen-e.jpに書かれているサーバー構築手順にとらわれることなく全く別の技術でよりよく目標を達成することになった</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>今後の展望</h2>
+			<ul>
+				<li>各教科の平均点を表示する機能の追加</li>
+				<li>赤点回避機能の追加</li>
+				<li>先生からのコメント機能の追加</li>
+				<li>試験日程のスケジュール機能の追加</li>	
+			</ul>
+		</div>
+	</section>
+	
+	<section class="slide cover" id="Picture">
+		<div>
+			<h2>ソースコード</h2>
+			<p>github.com/iguchi1124/school-record-manager</p>
+			<h2>URL</h2>
+			<p>school-record-manager.herokuapp.com/</p>
+					<img src="pictures/picture.jpg" alt="">
+			<style>
+			#Picture {
+				color:#FFF;
+				}
+			#Picture p {
+				margin-bottom:30px;
+			}
+			#Picture h2 {
+				color:#FFF;
+			}
+			</style>
+		</div>
+	</section>
+
+	<div class="progress"></div>
+	<script src="shower/shower.min.js"></script>
+</body>
+</html>
