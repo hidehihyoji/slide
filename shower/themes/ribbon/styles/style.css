@@ -1,8 +1,13 @@
 @charset "utf-8";
 body{
-	font-size:30px;
+	font-size:35px;
 	line-height: 1.5;
 	font-family: "Arial", "Tahoma", "sans-serif" !important;
+	 user-select: none;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     -o-user-select: none;
 }
 .title h2{
 	position: absolute;
@@ -49,7 +54,7 @@ h3{
  	border:1px solid #000;
 }
 .slide>div {
-	background-color: rgba(255,255,255,0.9);
+	background-color: rgba(255,255,255,0.85);
 }
 img.logo{
 	position: absolute;
